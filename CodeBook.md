@@ -13,21 +13,21 @@ This course project is about creating a script run_analysis.R, which performs th
  Dataset is downloaded and then unzipped inside directory "./data/UCI HAR Dataset" 
 # 2. Import all text files into tables and assign variables to each of them. 
 
-- features <- features.txt
+- features <- features.txt;
 contains tAcc-XYZ and tGyro-XYZ  from the accelerometer and gyroscope
-- activites<- activity_labels.txt
+- activites<- activity_labels.txt;
 contains all the activities performed
--  subject_test <- subject_test.txt
+-  subject_test <- subject_test.txt;
 contains test data on the tested subjects
-- x_test <- X_test.txt 
+- x_test <- X_test.txt;
 contains recorded features test data
-- y_test <- y_test.txt 
+- y_test <- y_test.txt;
 contains test data of activities’code labels
-- subject_train <- subject_train.txt 
+- subject_train <- subject_train.txt;
 contains train data for subjects being observed
-- x_train <- X_train.txt 
+- x_train <- X_train.txt;
 contains recorded features train data
-- y_train <- y_train.txt 
+- y_train <- y_train.txt;
 contains train data of activities (code) labels
 # 3. Merges the data sets (train and test) to create one data set
 Use  rbind() to merge the X ,Y and Subject of test and train data respectively and then use cbind() to merge them altogether into Merged_Data 
